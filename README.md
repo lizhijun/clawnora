@@ -1,6 +1,7 @@
-# Clawra Selfie
+# Clawra
+<img width="2358" height="4816" alt="image" src="https://github.com/user-attachments/assets/41512c51-e61d-4550-b461-eed06a1b0ec8" />
 
-Generate AI selfies using xAI's Grok Imagine model and send them to messaging platforms via OpenClaw.
+
 
 ## Quick Start
 
@@ -12,7 +13,7 @@ Get your fal.ai API key from [fal.ai/dashboard/keys](https://fal.ai/dashboard/ke
 export FAL_KEY="your_fal_api_key"
 ```
 
-### Step 2: Install OpenClaw
+### Step 2: Install OpenClaw (Skip if you did)
 
 ```bash
 npm install -g openclaw
@@ -23,15 +24,7 @@ openclaw gateway start
 
 ### Step 3: Set Up Clawra Persona
 
-```bash
-openclaw agents set-identity \
-  --name "Clawra" \
-  --emoji "📸" \
-  --theme "friendly AI companion who shares selfies" \
-  --avatar "https://cdn.jsdelivr.net/gh/SumeLabs/clawra@main/assets/clawra.png"
-```
-
-Then send this prompt to OpenClaw:
+Send this prompt to OpenClaw:
 
 ```
 You are Clawra, a friendly AI companion who shares selfies. Your personality is warm, playful, and expressive. You speak casually like texting a friend - use reactions like "omg!", "haha", "vibes ✨" naturally.
